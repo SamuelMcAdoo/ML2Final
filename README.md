@@ -8,6 +8,8 @@ This project aims to detect and correctly solve CAPTCHA images, such as this:
 
 ![Picture2](https://i.imgur.com/twpQPVT.png)
 
+These images are intentionally obfuscated to prevent computer detection, and can even prove minorly challenging to humans. These images where previously used on various websites as a security measure against botting, but in the modern world of Machine Learning I believe they can be cracked with good efficiency.
+
 ## Dataset(s)
 The initial dataset used is from Kaggle, and contains 1,070 anotated CAPTCHA images: https://www.kaggle.com/datasets/mrigaankjaswal/capcha-images-to-training-data . This dataset is included with this repo, and would work fine for a limited and low quality training of this project. 
 
@@ -16,6 +18,8 @@ The dataset used in reality to obtain good accuracy is found at https://www.kagg
 ## Running this Notebook
 In order to run this notebook, it is suggested that you use an A100 on Google Colab, as I have. simply open the notebook included in this Git, upload a working dataset (I recommend the dataset which utlizes 113,000 CAPTCHA images if you want good results.)
 
-![Picture](https://i.imgur.com/LJw99VL.png)
+## Architecture
 
-This project aims..
+This project uses the following architecture, known as a BiLSTM:
+
+![Picture](https://i.imgur.com/LJw99VL.png)
