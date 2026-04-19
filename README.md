@@ -4,7 +4,9 @@
 
 ## Purpose
 
-This project aims to detect and correctly solve CAPTCHA images. 
+This project aims to detect and correctly solve CAPTCHA images, such as this:
+
+![Picture2](https://i.imgur.com/twpQPVT.png)
 
 ## Dataset(s)
 The initial dataset used is from Kaggle, and contains 1,070 anotated CAPTCHA images: https://www.kaggle.com/datasets/mrigaankjaswal/capcha-images-to-training-data . This dataset is included with this repo, and would work fine for a limited and low quality training of this project. 
